@@ -1,0 +1,58 @@
+﻿  Character.cpp
+  Enemy.cpp
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Enemy.cpp(7,62): error C2614: 'Enemy': illegal member initialization: 'Character' is not a base or member
+  Main.cpp
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Enemy.h(26,17): error C2061: syntax error: identifier 'Player'
+  GameManager.cpp
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Enemy.h(26,17): error C2061: syntax error: identifier 'Player'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\GameManager.cpp(32,36): error C2664: 'void Player::attack(Character &)': cannot convert argument 1 from 'Enemy' to 'Character &'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.h(23,10): message : see declaration of 'Player::attack'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\GameManager.cpp(34,40): error C2664: 'void Enemy::attack(Character &)': cannot convert argument 1 from 'Player' to 'Character &'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Enemy.h(24,10): message : see declaration of 'Enemy::attack'
+  Player.cpp
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Enemy.h(26,17): error C2061: syntax error: identifier 'Player'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(4,54): error C2614: 'Player': illegal member initialization: 'Character' is not a base or member
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(7,16): error C2352: 'Character::attack': illegal call of non-static member function
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Character.h(15): message : see declaration of 'Character::attack'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(9,14): error C2039: 'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(9,19): error C2065: 'cout': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(9,89): error C2039: 'endl': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(9,93): error C2065: 'endl': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(12,14): error C2039: 'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(12,19): error C2065: 'cout': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(12,67): error C2039: 'endl': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(12,71): error C2065: 'endl': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(20,18): error C2039: 'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(20,23): error C2065: 'cout': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(20,94): error C2039: 'endl': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(20,98): error C2065: 'endl': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(31,10): error C2039: 'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(31,15): error C2065: 'cout': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(31,100): error C2039: 'endl': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(31,104): error C2065: 'endl': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(35,10): error C2039: 'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(35,15): error C2065: 'cout': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(36,16): error C2352: 'Character::displayInfo': illegal call of non-static member function
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Character.h(19): message : see declaration of 'Character::displayInfo'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(37,10): error C2039: 'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(37,15): error C2065: 'cout': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(37,86): error C2039: 'endl': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(37,90): error C2065: 'endl': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(38,10): error C2039: 'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(38,15): error C2065: 'cout': undeclared identifier
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(38,77): error C2039: 'endl': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : see declaration of 'std'
+C:\Users\Dyma\Documents\CMD RPG\CMD RPG\Player.cpp(38,81): error C2065: 'endl': undeclared identifier
+  Generating Code...
